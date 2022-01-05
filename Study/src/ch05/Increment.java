@@ -13,8 +13,9 @@ public class Increment {
 		System.out.println("Increment num2 : "+num2);
 	}
 	
-	public void add() {
-		num1++;
+	// 정적메서드에서는 non-static 변수를 참조할 수 없다.
+	public static void add() {
+		//num1++;
 		num2++;
 	}
 
