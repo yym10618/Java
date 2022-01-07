@@ -1,8 +1,8 @@
-package ch08;
+package ch08.pkg2;
 
 import ch08.P214Aclass;
 
-public class P215 {
+public class Bclass {
 	
 	public void methodB() {
 		P214Aclass ac = new P214Aclass();
